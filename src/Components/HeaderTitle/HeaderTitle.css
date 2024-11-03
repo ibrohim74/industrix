@@ -63,7 +63,17 @@ section.headerTitle .box:hover .foto{
     background: var(--color);
     transition: .5s;
 }
-
+section.headerTitle .headerTitle_item:first-child .box .foto{
+    background: var(--color);
+    transition: .5s;
+}
+section.headerTitle .headerTitle_item:first-child .box{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
+    border: none;
+    transition: .5s;
+    margin-bottom: 15px;
+}
 @media screen and (max-width: 1000px){
     section.headerTitle .box{
         cursor: pointer;

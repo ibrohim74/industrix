@@ -8,7 +8,7 @@ export default function HeaderTitle() {
         <section className='headerTitle'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
                                 RENEWABLE ENERGY
@@ -21,7 +21,7 @@ export default function HeaderTitle() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
                                 LATEST TECHNOLOGY
@@ -35,7 +35,7 @@ export default function HeaderTitle() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
                                 INDUSTRY SOLUTION

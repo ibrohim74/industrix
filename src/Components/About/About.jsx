@@ -6,7 +6,7 @@ export default function About() {
         <section className='about'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" style={{marginBottom:"30px"}}>
                         <h1 className="top">ABOUT US</h1>
                         <p className="top">MERGING INDUSTRY <br/>ZEAL WITH PEAK <br/>PRODUCTIVITY</p>
                         <button>READ MORE</button>

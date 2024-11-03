@@ -1,23 +1,25 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 img,
 svg,
-video{
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-}
-:root{
-  --color: #0ACA37;
-  --chakra: "Chakra Petch", sans-serif;
-  --pop: "Poppins", sans-serif;
+video {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
 body{
-  height: 10000000px;
+  font-family: "Chakra Petch", sans-serif;
+}
+:root {
+    --color: #0ACA37;
+    --chakra: "Chakra Petch", sans-serif;
+    --pop: "Poppins", sans-serif;
 }
