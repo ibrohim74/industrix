@@ -1,0 +1,75 @@
+section.headerTitle{
+    width: 100%;
+    padding: 120px 0px 60px 0px;
+}
+
+section.headerTitle .box{
+    padding: 40px;
+    border: 1px solid rgba(128, 128, 128, .3);
+}
+section.headerTitle .box p.top{
+    font-size: 26px;
+    font-family: var(--chakra);
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+section.headerTitle .box p.title{
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+    font-family: var(--pop);
+}
+section.headerTitle .box .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+section.headerTitle .box .bottom .foto{
+    padding: 20px;
+    background-color: #efefef;
+}
+section.headerTitle .box .bottom .foto img{
+    width: 40px;
+    height: 40px;
+}
+section.headerTitle .box .bottom a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    grid-gap: 20px;
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+section.headerTitle .box .bottom a::after{
+    content: '';
+    width: 100%;
+    background: black;
+    height: 1.5px;
+    position: absolute;
+    bottom: 0px;
+}
+section.headerTitle .box:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
+    border: none;
+    transition: .5s;
+}
+section.headerTitle .box:hover .foto{
+    background: var(--color);
+    transition: .5s;
+}
+
+@media screen and (max-width: 1000px){
+    section.headerTitle .box{
+        cursor: pointer;
+        box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
+        border: none;
+        transition: .5s;
+        margin-bottom: 15px;
+    }
+}

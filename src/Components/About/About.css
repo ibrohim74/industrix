@@ -1,0 +1,52 @@
+section.about{
+    width: 100%;
+    padding: 60px 0px 120px 0px;
+}
+
+section.about h1.top{
+    font-size: 20px;
+    font-family: var(--chakra);
+    color: black;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+section.about p.top{
+    padding: 8px 0px 16px 0px;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    font-family: var(--chakra);
+    margin-bottom: 0px;
+}
+section.about button{
+    padding: 15px 35px;
+    color: black;
+    border: none;
+    background: var(--color);
+    font-size: 14px;
+    font-family: var(--pop);
+}
+section.about button:hover{
+    cursor: pointer;
+    background: black;
+    color: var(--color);
+    transition: .3s;
+}
+section.about p.right-top{
+    font-size: 14px;
+    font-family: var(--chakra);
+    color: black;
+    margin-bottom: 0%;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+section.about p.right-bottom{
+    font-size: 16px;
+    font-family: var(--pop);
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+section.about img{
+    clip-path: polygon(0% 0%, 100% 0, 100% 85%, 89% 100%, 0% 100%);
+}

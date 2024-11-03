@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img,
+svg,
+video{
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+:root{
+  --color: #0ACA37;
+  --chakra: "Chakra Petch", sans-serif;
+  --pop: "Poppins", sans-serif;
+}
+body{
+  height: 10000000px;
+}
