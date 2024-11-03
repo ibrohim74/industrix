@@ -7,7 +7,6 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 1000px)').matches);
 
-    // Update `isMobile` state on window resize
     useEffect(() => {
         const handleResize = (e) => {
             setIsMobile(e.matches);
@@ -16,7 +15,7 @@ export default function Navbar() {
         const windowMatch = window.matchMedia('(max-width: 1000px)');
         windowMatch.addEventListener('change', handleResize);
 
-        // Cleanup event listener on unmount
+
         return () => windowMatch.removeEventListener('change', handleResize);
     }, []);
 
