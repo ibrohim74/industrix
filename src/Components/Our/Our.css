@@ -1,0 +1,160 @@
+section.our {
+    width: 100%;
+    background: linear-gradient(#E9E9E9 100%, #FFFFFF 100%);
+    padding:40px 0px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 91%, 90% 100%, 0% 100%);
+}
+section.our h1.top{
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--chakra);
+    color: #1B1917;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+section.our p.top{
+    text-align: center;
+    font-family: var(--chakra);
+    font-size: 35px;
+    font-weight: 600;
+    color: #1B1917;
+    margin-bottom: 0px;
+    padding: 8px 0px 20px 0px;
+}
+
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box{
+    position: relative;
+    background: black;
+    z-index: 1;
+    border: none;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .foto-background{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .foto-background img{
+    width: 100%;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box p.box-title{
+    padding-bottom: 230px;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom .foto img{
+    width: 55px;
+    height: 55px;
+}
+section.our .box{
+    padding: 40px;
+    border: 1px solid #1B191729;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box p.box-top,
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box p.box-title,
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom a.bottom{
+    color: white;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom a.bottom::after{
+    background: white;
+}
+section.our  .box p.box-top{
+    font-size: 26px;
+    font-family: var(--chakra);
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+section.our  .box p.box-title{
+    font-size: 16px;
+    font-family: var(--pop);
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+section.our  .box .box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+section.our .box .box-bottom .foto{
+    padding: 20px;
+    background: white;
+}
+section.our .box .box-bottom .foto img{
+    width: 45px;
+    height: 45px;
+}
+section.our  .box .box-bottom a.bottom{
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: var(--pop);
+    font-weight: 600;
+    position: relative;
+}
+section.our .box .box-bottom a.bottom::after{
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    background: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) {
+    display: grid;
+    grid-gap: 20px;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box,
+section.our .col-lg-4 .box{
+    padding: 30px;
+}
+
+section.our .row:nth-child(3){
+    margin-top: 25px;
+}
+
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover,
+section.our .col-lg-4 .box:hover{
+    cursor: pointer;
+    background: black;
+    transition: .3s;
+}
+
+section.our .col-lg-4 .box:hover p.box-top,
+section.our .col-lg-4 .box:hover p.box-title,
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover p.box-top,
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover p.box-title{
+    cursor: pointer;
+    color:white;
+    transition: .3s;
+}
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom .foto,
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom a.bottom::after,
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover .box-bottom a.bottom::after,
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover .box-bottom .foto,
+section.our .col-lg-4 .box:hover .box-bottom .foto,
+section.our .col-lg-4 .box:hover .box-bottom a.bottom::after{
+    cursor: pointer;
+    background: var(--color);
+    transition: .3s;
+}
+
+section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom a.bottom,
+section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box:hover .box-bottom a.bottom,
+section.our .col-lg-4 .box:hover .box-bottom a.bottom{
+    cursor: pointer;
+    color: var(--color);
+    transition: .3s;
+}
+
+@media screen and (max-width: 800px){
+    section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box p.box-title{
+        padding-bottom: 75px;
+    }
+}

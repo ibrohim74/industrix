@@ -1,0 +1,93 @@
+section.test{
+    width: 100%;
+    padding: 90px 0px 60px 0px;
+}
+
+section.test h1.top{
+    font-family: var(--chakra);
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+section.test p.top{
+    font-size: 44px;
+    font-family: var(--chakra);
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: black; 
+}
+section.test p.bottom{
+    font-size: 16px;
+    font-family: var(--pop);
+    color: #666666;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+section.test .box{
+    width: 95%;
+    margin: auto;
+    background: black;
+    margin-bottom: 30px;
+    padding: 30px 50px 50px 50px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 89%, 90% 100%, 0% 100%);
+}
+section.test .box p.box-top{
+    color: white;
+    font-family: var(--pop);
+    font-size: 19px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+section.test .box .star{
+    color: var(--color);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+section.test .box .box-bottom{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+section.test .box .box-bottom img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+section.test .box .box-bottom .text p.name{
+    font-size: 18px;
+    font-family: var(--chakra);
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+section.test .box .box-bottom .text p.info{
+    font-size: 16px;
+    font-family: var(--pop);
+    margin-bottom: 0px;
+    color: #DEDEDE;
+}
+section.test .carousel-control-prev,
+section.test .carousel-control-next{
+    display: none;
+}
+
+.carousel-indicators [data-bs-target]{
+    background: var(--color) !important;
+    width: 20px !important;
+    height: 0px !important;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    left: 15px !important;
+    right: unset !important;
+    margin: 0px !important;
+    bottom: -20px !important;
+}

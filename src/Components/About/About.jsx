@@ -3,7 +3,7 @@ import './About.css'
 import foto from '../../Assisstens/img/about us.jpg'
 export default function About() {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6" style={{marginBottom:"30px"}}>

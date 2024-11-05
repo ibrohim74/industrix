@@ -1,0 +1,32 @@
+section.number{
+    width: 100%;
+    padding: 0px 0px 100px 0px;
+}
+section.number .col-lg-3{
+    text-align: center;
+}
+
+section.number p.count{
+    font-size: 55px;
+    font-family: var(--chakra);
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    color: black;
+}
+section.number p.last{
+    margin-bottom: 0px;
+    color: #666666;
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px){
+    section.number .row{
+        display: flex;
+    }
+    section.number .row .col-lg-3{
+        width: 50%;
+    }
+}

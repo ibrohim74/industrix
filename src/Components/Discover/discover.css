@@ -1,0 +1,94 @@
+.Discover {
+    margin-top: 100px;
+}
+
+.Discover_title {
+    width: 100%;
+    text-align: center;
+}
+
+.Discover_title h1 {
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    color: #000;
+}
+
+.discover_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.discover_left {
+    width: 50%;
+}
+
+.discover_right {
+    width: 40%;
+}
+
+.discover_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover_left_item {
+    width: 100%;
+    background: #E9E9E9;
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 86% 100%, 0% 100%);
+}
+
+.discover_left_item img {
+    width: 100%;
+}
+
+.discover_left_item_text {
+    padding: 30px;
+}
+
+.discover_left_item_text h1 {
+    margin-top: 0;
+    font-size: 30px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+}
+
+.discover_left_item_text p:first-child, .discover_right_item p:first-child {
+    margin: 30px 0;
+    color: #666666;
+}
+
+.discover_left_item_text p:last-child, .discover_right_item p:last-child {
+    color: #666666;
+}
+
+
+.discover_right_item {
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 10px;
+}
+
+.discover_right_item h1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    .discover_box {
+        flex-direction: column;
+    }
+
+    .discover_left, .discover_right {
+        width: 100%;
+    }
+
+    .discover_left_item {
+        margin-bottom: 20px;
+    }
+
+    .Discover_title h1 {
+        font-size: 35px;
+    }
+}

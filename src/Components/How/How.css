@@ -1,0 +1,77 @@
+section.how {
+    width: 100%;
+    padding: 60px 0px;
+
+}
+
+section.how .col-lg-6:nth-child(1) img {
+    width: 520px;
+    height: 605px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 89%, 90% 100%, 0% 100%);
+}
+
+section.how h1.top {
+    font-size: 20px;
+    font-family: var(--chakra);
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+section.how p.top {
+    margin-bottom: 0px;
+    color: black;
+    font-size: 44px;
+    font-family: var(--chakra);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+section.how .box-one{
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+}
+section.how .box-one .one{
+    width: 20px;
+    height: 20px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.how .box-one .one .two{
+    width: 9px;
+    height: 8px;
+    background: var(--color);
+}
+
+section.how .box-one p.box-p{
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-family: var(--chakra);
+    color: black;
+    font-weight: 600;
+}
+section.how p.title{
+    font-size: 16px;
+    font-family: var(--pop);
+    color: #666666;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    position: relative;
+    padding-left: 50px;
+}
+section.how p.title::before{
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: 9.5px;
+    width: 1.5px;
+    height: 115px;
+    background: black;
+}
+section.how p.title:nth-child(8)::before{
+    display: none;
+}
