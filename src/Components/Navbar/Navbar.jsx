@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import logo from '../../Assisstens/img/industrix-logo-white.png';
+import logo from '../../Assisstens/img/logo.png';
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
 
-export default function Navbar() {
+export default function Navbar({setIsModalOpen}) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 1000px)').matches);
 
@@ -36,17 +36,17 @@ export default function Navbar() {
                                 {isMobile && isMenuOpen && (
                                     <a className="logo" href="#!"><img src={logo} alt="Logo" /></a>
                                 )}
-                                <li><a href="#home">HOME</a></li>
-                                <li><a href="#about">ABOUT US</a></li>
-                                <li><a href="#services">SERVICES</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
-                                <li><a href="#support">SUPPORT</a></li>
+                                <li><a href="#home">главный страница</a></li>
+                                <li><a href="#about">о нас</a></li>
+                                <li><a href="#services">наша преимущества</a></li>
+                                <li><a href="#testimonial">ОТЗЫВЫ</a></li>
+                                <li><a href="#how">цели</a></li>
                                 {isMobile && isMenuOpen && (
-                                    <button>GET STARTED</button>
+                                    <button onClick={()=>setIsModalOpen(true)}>свяжитесь с нами</button>
                                 )}
                             </ul>
-                            {!isMobile  && (
-                                <button>GET STARTED</button>
+                            {!isMobile  && isMenuOpen && (
+                                <button onClick={()=>setIsModalOpen(true)}>свяжитесь с нами</button>
                             )}
                             {/* Close button inside menu for mobile */}
                             {isMobile && isMenuOpen && (
@@ -55,7 +55,9 @@ export default function Navbar() {
                                 </div>
                             )}
                         </div>
-
+                        {!isMobile  && (
+                            <button onClick={()=>setIsModalOpen(true)}>свяжитесь с нами</button>
+                        )}
                         {/* Hamburger Menu Icon */}
                         <div className="navburger" onClick={toggleMenu}>
                             {isMenuOpen ? <CloseOutlined /> : <MenuOutlined />}

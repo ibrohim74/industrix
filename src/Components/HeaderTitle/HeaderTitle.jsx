@@ -3,6 +3,7 @@ import './HeaderTitle.css'
 import icon1 from '../../Assisstens/img/icon 1.png'
 import icon2 from '../../Assisstens/img/icon 2.png'
 import icon3 from '../../Assisstens/img/icon 3.png'
+
 export default function HeaderTitle() {
     return (
         <section className='headerTitle'>
@@ -11,40 +12,45 @@ export default function HeaderTitle() {
                     <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
-                                RENEWABLE ENERGY
+                                ЭФФЕКТИВНОСТЬ ПРОИЗВОДСТВА
                             </p>
                             <p className="title">
-                                Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim justo ligula rhoncus ut imperdiet venenatis.
+                                Оптимизация производственных процессов начинается с грамотного проектирования
+                                технологических линий.
                             </p>
                             <div className="bottom">
-                                <div className="foto">                                <img src={icon1} alt="" /></div>                                <a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>
+                                <div className="foto"><img src={icon1} alt=""/></div>
+                                {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
-                                LATEST TECHNOLOGY
+                                ЭКОЛОГИЧНОСТЬ ПРОИЗВОДСТВА
                             </p>
                             <p className="title">
-                                Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim justo ligula rhoncus ut imperdiet venenatis.
+                                Наши решения направлены на минимизацию воздействия на окружающую среду, использование
+                                экологичных материалов и технологий.
                             </p>
                             <div className="bottom">
-                                <div className="foto">                                <img src={icon2} alt="" /></div>
-                                <a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>
+                                <div className="foto"><img src={icon2} alt=""/></div>
+                                {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 headerTitle_item">
                         <div className="box">
                             <p className="top">
-                                INDUSTRY SOLUTION
+                                ВЫСОКОКВАЛИФИЦИРОВАННЫЕ СПЕЦИАЛИСТЫ
                             </p>
                             <p className="title">
-                                Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim justo ligula rhoncus ut imperdiet venenatis.
+                                С нашими проектами вы можете быть уверены в высоком качестве и надёжности ваших
+                                производственных процессов.
                             </p>
                             <div className="bottom">
-                                <div className="foto">                                <img src={icon3} alt="" /></div>                                <a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>
+                                <div className="foto"><img src={icon3} alt=""/></div>
+                                {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
                     </div>

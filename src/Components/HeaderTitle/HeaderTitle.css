@@ -1,41 +1,54 @@
-section.headerTitle{
+section.headerTitle {
     width: 100%;
     padding: 120px 0px 60px 0px;
 }
 
-section.headerTitle .box{
+section.headerTitle .box {
     padding: 40px;
+    height: 400px;
     border: 1px solid rgba(128, 128, 128, .3);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
 }
-section.headerTitle .box p.top{
-    font-size: 26px;
+
+section.headerTitle .box p.top {
+    font-size: 14px;
     font-family: var(--chakra);
     color: black;
     margin-bottom: 0px;
     padding-bottom: 20px;
     font-weight: 500;
 }
-section.headerTitle .box p.title{
+
+section.headerTitle .box p.title {
     margin-bottom: 0px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     font-size: 16px;
     color: rgba(0, 0, 0, .5);
     font-family: var(--pop);
 }
-section.headerTitle .box .bottom{
+
+section.headerTitle .box .bottom {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    width: 100%;
+    height: 40%;
+    margin-top: 10px;
 }
-section.headerTitle .box .bottom .foto{
+
+section.headerTitle .box .bottom .foto {
     padding: 20px;
     background-color: #efefef;
 }
-section.headerTitle .box .bottom .foto img{
+
+section.headerTitle .box .bottom .foto img {
     width: 40px;
     height: 40px;
 }
-section.headerTitle .box .bottom a{
+
+section.headerTitle .box .bottom a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -45,7 +58,8 @@ section.headerTitle .box .bottom a{
     font-size: 15px;
     font-weight: 400;
 }
-section.headerTitle .box .bottom a::after{
+
+section.headerTitle .box .bottom a::after {
     content: '';
     width: 100%;
     background: black;
@@ -53,33 +67,55 @@ section.headerTitle .box .bottom a::after{
     position: absolute;
     bottom: 0px;
 }
-section.headerTitle .box:hover{
+
+section.headerTitle .box:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
     border: none;
     transition: .5s;
 }
-section.headerTitle .box:hover .foto{
+
+section.headerTitle .box:hover .foto {
     background: var(--color);
     transition: .5s;
 }
-section.headerTitle .headerTitle_item:first-child .box .foto{
+
+section.headerTitle .headerTitle_item:first-child .box .foto {
     background: var(--color);
     transition: .5s;
 }
-section.headerTitle .headerTitle_item:first-child .box{
+
+section.headerTitle .headerTitle_item:first-child .box {
     cursor: pointer;
     box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
     border: none;
     transition: .5s;
     margin-bottom: 15px;
 }
-@media screen and (max-width: 1000px){
-    section.headerTitle .box{
+
+@media screen and (max-width: 1000px) {
+    section.headerTitle .box {
         cursor: pointer;
         box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
         border: none;
         transition: .5s;
         margin-bottom: 15px;
+    }
+    section.headerTitle .box{
+        height: 295px;
+    }
+    section.headerTitle .box p.top{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 800px){
+    section.headerTitle .box{
+        height: 368px;
+    }
+    section.headerTitle .box p.title{
+        padding-bottom: 0;
+    }
+    section.headerTitle .box p.top{
+        font-size: 18px;
     }
 }

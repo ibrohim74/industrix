@@ -125,6 +125,7 @@ footer .container {
 
 .footer_box_bottom_item ul li a {
     text-decoration: none;
+    text-transform: lowercase;
     color: #b1b1b1;
 }
 

@@ -1,24 +1,31 @@
 import React from 'react'
 import './About.css'
 import foto from '../../Assisstens/img/about us.jpg'
-export default function About() {
+
+export default function About({setIsModalOpen}) {
     return (
         <section className='about' id='about'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6" style={{marginBottom:"30px"}}>
-                        <h1 className="top">ABOUT US</h1>
-                        <p className="top">MERGING INDUSTRY <br/>ZEAL WITH PEAK <br/>PRODUCTIVITY</p>
-                        <button>READ MORE</button>
+                    <div className="col-lg-6" style={{marginBottom: "30px"}}>
+                        <h1 className="top">О НАС</h1>
+                        <p className="top">ИННОВАЦИОННЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО ПРОИЗВОДСТВА: ПРОЕКТИРОВАНИЕ ТЕХНОЛОГИЧЕСКИХ
+                            ЛИНИЙ</p>
+                        <button onClick={()=>setIsModalOpen(true)}>Свяжитесь с нами</button>
                     </div>
                     <div className="col-lg-6">
                         <p className="right-top">
-                            MANUFACTURING IS MORE THAN JUST PUTTING PARTS TOGETHER. IT’S COMING UP WITH IDEAS, TESTING PRINCIPLES, AND PERFECTING THE ENGINEERING, AS WELL AS FINAL ASSEMBLY.
+                            Наша компания специализируется на проектировании технологических линий, систем пыле- и
+                            газоочистки, а также вентиляции и аспирации. Мы стремимся создавать эффективные и
+                            экологически безопасные решения, адаптированные под потребности каждого клиента. Наша
+                            команда экспертов сочетает глубокие знания с инновационными технологиями, чтобы обеспечить
+                            высокое качество и надежность производственных процессов.
                         </p>
                         <p className="right-bottom">
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend.
+                            Наша цель — не только удовлетворять потребности клиентов, но и вносить вклад в устойчивое
+                            развитие отрасли, предлагая надёжные и современные проекты для вашего бизнеса.
                         </p>
-                        <img src={foto} alt="" />
+                        <img src={foto} alt=""/>
                     </div>
                 </div>
             </div>

@@ -4,8 +4,8 @@ nav {
 }
 
 nav a.logo img {
-    width: 295px;
-    height: 39px;
+    height: 60px;
+    object-fit: contain;
 }
 
 nav .col-lg-12 {
@@ -33,6 +33,7 @@ nav ul li a {
     font-weight: 700;
     font-size: 12px;
     font-family: var(--pop);
+    text-transform: uppercase;
 }
 nav ul li a:hover,
 nav ul li select:hover{
@@ -75,7 +76,7 @@ nav button{
 }
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 65%;
     z-index: 999;
 }
@@ -97,7 +98,7 @@ nav button{
 }
 @media screen and (max-width: 1000px){
     nav .logo{
-        width: 50%;
+        width: 15%;
     }
     nav a.logo img{
         width: 100%;
@@ -133,7 +134,7 @@ nav button{
     }
     .menu.open ul li a{
         font-weight: 400;
-        font-size: 18px
+        font-size: 14px
     }
     .menu.open ul .logo{
         margin-bottom: 10px;
@@ -146,5 +147,10 @@ nav button{
         height: 100%;
         object-fit: contain;
     }
+}
 
+@media screen and (max-width: 750px){
+    nav .logo{
+        width: 30%;
+    }
 }

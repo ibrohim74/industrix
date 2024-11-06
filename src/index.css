@@ -23,3 +23,33 @@ body{
     --chakra: "Chakra Petch", sans-serif;
     --pop: "Poppins", sans-serif;
 }
+
+.ant-modal-footer{
+    display: none;
+}
+.modal_header{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.modal_header img{
+    width: 150px;
+}
+.modal_form input{
+    height: 50px;
+    margin-bottom: 15px;
+}
+.modal_form label{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.modal_form button{
+    background-color: #0ACA37;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+}

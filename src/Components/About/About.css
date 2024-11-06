@@ -12,7 +12,7 @@ section.about h1.top{
 }
 section.about p.top{
     padding: 8px 0px 16px 0px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     color: black;
     font-family: var(--chakra);
@@ -49,4 +49,10 @@ section.about p.right-bottom{
 
 section.about img{
     clip-path: polygon(0% 0%, 100% 0, 100% 85%, 89% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 800px){
+    section.about p.top{
+        font-size: 18px;
+    }
 }

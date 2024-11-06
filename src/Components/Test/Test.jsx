@@ -12,14 +12,14 @@ export default function Test() {
     const windowMatch = window.matchMedia('(max-width: 1000px)');
 
     return (
-        <section className='test'>
+        <section className='test' id={"testimonial"}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h1 className="top">TESTIMONIALS</h1>
-                        <p className="top">INDUSTRIX IS<br />CLIENT-APPROVED</p>
+                        <h1 className="top">отзывы компании</h1>
+                        <p className="top">ВАШИ ОТЗЫВЫ -<br /> НАША ГОРДОСТЬ</p>
                         <p className="bottom">
-                            Aliquam lorem ante dapibus in viverra quis feugiat <br />tellus. Phasellus viverra nulla.
+                            Мы ценим каждое мнение и стремимся к совершенству
                         </p>
                     </div>
                     <div className="col-lg-6">

@@ -58,7 +58,7 @@ section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box .box-bottom a.bottom::
     background: white;
 }
 section.our  .box p.box-top{
-    font-size: 26px;
+    font-size: 23px;
     font-family: var(--chakra);
     color: black;
     margin-bottom: 0px;
@@ -71,12 +71,13 @@ section.our  .box p.box-title{
     margin-bottom: 0px;
     color: black;
     font-weight: 500;
-    padding-bottom: 50px;
+
 }
 section.our  .box .box-bottom{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 15px;
 }
 section.our .box .box-bottom .foto{
     padding: 20px;
@@ -113,6 +114,11 @@ section.our .row:nth-child(2) .col-lg-6:nth-child(2) {
 section.our .row:nth-child(2) .col-lg-6:nth-child(2) .box,
 section.our .col-lg-4 .box{
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
 }
 
 section.our .row:nth-child(3){
@@ -156,5 +162,11 @@ section.our .col-lg-4 .box:hover .box-bottom a.bottom{
 @media screen and (max-width: 800px){
     section.our .row:nth-child(2) .col-lg-6:nth-child(1) .box p.box-title{
         padding-bottom: 75px;
+    }
+    section.our p.top{
+        font-size: 23px;
+    }
+    section.our .box p.box-top{
+        font-size: 18px;
     }
 }

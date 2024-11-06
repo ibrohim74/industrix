@@ -52,6 +52,7 @@ section.how .box-one p.box-p{
     font-size: 26px;
     font-family: var(--chakra);
     color: black;
+    text-transform: uppercase;
     font-weight: 600;
 }
 section.how p.title{

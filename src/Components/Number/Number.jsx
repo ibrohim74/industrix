@@ -95,19 +95,19 @@ export default function Number() {
                 <div className="row">
                     <div className="col-lg-3">
                         <p className='count'>{count1}+</p>
-                        <p className="last">Years experience</p>
+                        <p className="last">Многолетний опыт</p>
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>{count2}K+</p>
-                        <p className="last">Positive Review</p>
+                        <p className="last">Положительный отзыв</p>
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>{count3}K</p>
-                        <p className="last">Global downloads</p>
+                        <p className="last">проекты</p>
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>{count4}%</p>
-                        <p className="last">Return on investment</p>
+                        <p className="last">Возврат инвестиций</p>
                     </div>
                 </div>
             </div>
