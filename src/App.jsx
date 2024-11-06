@@ -12,6 +12,7 @@ import Footer from "./Components/footer/footer";
 
 import {Button, Input, message, Modal} from "antd";
 import logo from "./Assisstens/img/logoBlack.png"
+
 export default function App() {
     const [isModalOpen, setIsModalOpen] = useState(true);
     const [initialState, setInitialState] = useState({})
