@@ -14,7 +14,7 @@ import {Button, Input, message, Modal} from "antd";
 import logo from "./Assisstens/img/logoBlack.png"
 
 export default function App() {
-    const [isModalOpen, setIsModalOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [initialState, setInitialState] = useState({})
     const [disabled, setDisabled] = useState(false);
     return (

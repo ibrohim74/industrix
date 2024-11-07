@@ -3,7 +3,7 @@ import "./footer.css"
 import logo from "../../Assisstens/img/logo.png"
 
 const Footer = () => {
-    const [tell , setTell] = React.useState("")
+    const [tell, setTell] = React.useState("")
     return (
         <footer>
             <div className="container">
@@ -33,7 +33,7 @@ const Footer = () => {
                                            formattedNumber += ' ' + formattedValue.substring(10, 12);
                                        }
                                        setTell(formattedNumber);
-                                   }} />
+                                   }}/>
                             <button>Отправить</button>
                         </div>
                     </div>
@@ -41,9 +41,8 @@ const Footer = () => {
                         <div className="footer_box_bottom_item footer_box_bottom_item_logo">
                             <div className="footer_box_bottom_item_logo_text">
                                 <img src={logo} alt=""/>
-                                <p>Premier organization renowned for its exceptional expertise and outstanding
-                                    achievements
-                                    in the field of manufacturing.</p>
+                                <p>Мы реализуем проекты, которые способствуют повышению эффективности и устойчивости
+                                    производств, предоставляя нашим клиентам передовые решения.</p>
                             </div>
 
                             <div className="footer_box_bottom_item_social">
