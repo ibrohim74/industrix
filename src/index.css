@@ -53,3 +53,6 @@ body{
     width: 200px;
     height: 40px;
 }
+.ant-notification{
+    z-index: 10000 !important;
+}

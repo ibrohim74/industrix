@@ -1,11 +1,57 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./footer.css"
 import logo from "../../Assisstens/img/logo.png"
+import axios from "axios";
+import {message, notification} from "antd";
 
 const Footer = () => {
     const [tell, setTell] = React.useState("")
+    const [disabled, setDisabled] = useState(false);
+    const [messageApi, contextHolder] = notification.useNotification();
+
+    const sendData = async (e) => {
+        e.preventDefault();
+        setDisabled(true);
+
+        if (!tell || tell.trim().length < 17) {
+            messageApi.error({
+                message: "Введите ваш номер телефона правильно",
+            });
+            setDisabled(false);
+            return;
+        }
+        let msg = `<b>заказ телефонный звонок</b>\n`;
+        msg += `\nтелефон: ${tell}\n`;
+
+        const TOKEN = "7787874882:AAEHucqnmHViV_cqPiq0VpztiQzN1HusAso";
+        const CHAT_ID = "1376002269";
+
+        axios.post(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: msg
+        }).then((res) => {
+            if (res?.status === 200) {
+                messageApi.success({
+                    message: 'Сообщение успешно отправлено',
+                });
+                // Formni tozalash
+                setTimeout(() => {
+                    setTell("")
+                    setDisabled(false)
+
+                }, 3000);
+            }
+        }).catch((e) => {
+            messageApi.error({
+                message: 'Произошла ошибка на сервере',
+            });
+            setDisabled(false);
+        });
+    }
     return (
         <footer>
+            {contextHolder}
             <div className="container">
                 <div className="footer_box">
                     <div className="footer_box_top">
@@ -34,7 +80,7 @@ const Footer = () => {
                                        }
                                        setTell(formattedNumber);
                                    }}/>
-                            <button>Отправить</button>
+                            <button onClick={sendData} disabled={disabled}>Отправить</button>
                         </div>
                     </div>
                     <div className="footer_box_bottom">
