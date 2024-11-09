@@ -1,14 +1,19 @@
 import React from 'react'
 import './How.css'
-import foto from '../../Assisstens/img/how foto.jpg'
+import foto from '../../Assisstens/etbs/predlogaym.webp'
+import {Helmet} from "react-helmet-async";
 
 export default function How() {
     return (
         <section className='how' id='how'>
+            <Helmet>
+                <meta name="description" content="Проектирование и расчет технологических линий и систем для горнодобывающих отраслей, очистки отходящих газов и систем аспирации." />
+                <meta name="keywords" content="проектирование, технологические линии, горнодобывающие отрасли, расчет систем, очистка отходящих газов, системы аспирации" />
+            </Helmet>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={foto} alt=""/>
+                        <img src={foto} alt="приоритеты и цели"/>
                     </div>
                     <div className="col-lg-6">
                         <h1 className="top">

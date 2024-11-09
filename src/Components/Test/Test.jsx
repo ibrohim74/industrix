@@ -7,6 +7,7 @@ import { Pagination } from 'swiper/modules';
 import john from '../../Assisstens/img/john.png';
 import women from '../../Assisstens/img/women.png';
 import oldman from '../../Assisstens/img/old man.png';
+import {Helmet} from "react-helmet-async";
 
 export default function Test() {
     const windowMatch = window.matchMedia('(max-width: 1000px)');

@@ -7,10 +7,21 @@ import our4 from '../../Assisstens/img//our 4.png'
 import our5 from '../../Assisstens/img//our 5.png'
 import our6 from '../../Assisstens/img//our 6.png'
 import background from '../../Assisstens/img/background.png'
+import {Helmet} from "react-helmet-async";
 
 export default function Our() {
     return (
         <section className='our' id={'services'}>
+            <Helmet>
+                <meta
+                    name='description'
+                    content='30 лет опыта, высококвалифицированные решения и превосходство, проверенное временем. Мы предлагаем гибкие и эффективные решения для вашего бизнеса.'
+                />
+                <meta
+                    name='keywords'
+                    content='опыт, решения, качество, производительность, гибкие линии, улучшение качества, эффективность, надежность'
+                />
+            </Helmet>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -42,7 +53,7 @@ export default function Our() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="box" >
+                        <div className="box">
                             <p className="box-top">
                                 НАШИ СПЕЦИАЛИСТЫ- ЭТО ОСНОВА КАЧЕСТВА И УСПЕХА
                             </p>

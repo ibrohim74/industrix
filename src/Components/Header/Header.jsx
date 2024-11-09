@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import './Header.css'
 import Navbar from '../Navbar/Navbar'
 import foto_res
-    from '../../Assisstens/img/industrial-factory-employee-working-in-metal-manufacturing-industry-e1693894114877.jpg'
+    from '../../Assisstens/etbs/headerBG.webp'
 import foto1 from '../../Assisstens/img/portrait_of_handsome_young_arab_man_smiling_and_looking_at_camera.jpg'
 import foto2 from '../../Assisstens/img/individual_close_up_portrait_of_one_happy_business_woman_looking.jpg'
 import foto3 from '../../Assisstens/img/businessman-look-at-camera-e1687404178260-300x300.jpg'

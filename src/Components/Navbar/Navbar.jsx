@@ -36,7 +36,7 @@ export default function Navbar({setIsModalOpen}) {
                                 {isMobile && isMenuOpen && (
                                     <a className="logo" href="#!"><img src={logo} alt="Logo" /></a>
                                 )}
-                                <li><a href="#home">главный страница</a></li>
+                                <li><a href="#home">главный</a></li>
                                 <li><a href="#about">о нас</a></li>
                                 <li><a href="#services">наша преимущества</a></li>
                                 <li><a href="#testimonial">ОТЗЫВЫ</a></li>

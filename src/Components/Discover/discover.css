@@ -47,7 +47,7 @@
     padding: 30px;
 }
 
-.discover_left_item_text h1 {
+.discover_left_item_text h2 {
     margin-top: 0;
     font-size: 30px;
     font-family: "Chakra Petch", sans-serif;
@@ -70,7 +70,7 @@
     margin-bottom: 10px;
 }
 
-.discover_right_item h1 {
+.discover_right_item h2 {
     font-size: 23px;
     font-weight: 600;
 }

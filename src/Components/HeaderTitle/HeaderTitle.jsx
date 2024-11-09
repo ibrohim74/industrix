@@ -19,7 +19,7 @@ export default function HeaderTitle() {
                                 технологических линий.
                             </p>
                             <div className="bottom">
-                                <div className="foto"><img src={icon1} alt=""/></div>
+                                <div className="foto"><img src={icon1} alt="ЭФФЕКТИВНОСТЬ ПРОИЗВОДСТВА"/></div>
                                 {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
@@ -34,7 +34,8 @@ export default function HeaderTitle() {
                                 экологичных материалов и технологий.
                             </p>
                             <div className="bottom">
-                                <div className="foto"><img src={icon2} alt=""/></div>
+                                <div className="foto"><img src={icon2} alt="использование
+                                экологичных материалов и технологий."/></div>
                                 {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
@@ -49,7 +50,8 @@ export default function HeaderTitle() {
                                 производственных процессов.
                             </p>
                             <div className="bottom">
-                                <div className="foto"><img src={icon3} alt=""/></div>
+                                <div className="foto"><img src={icon3} alt="надёжности ваших
+                                производственных процессов"/></div>
                                 {/*<a href="">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
