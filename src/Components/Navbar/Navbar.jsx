@@ -38,8 +38,7 @@ export default function Navbar({setIsModalOpen}) {
                                 )}
                                 <li><a href="#home">главный</a></li>
                                 <li><a href="#about">о нас</a></li>
-                                <li><a href="#services">наша преимущества</a></li>
-                                <li><a href="#testimonial">ОТЗЫВЫ</a></li>
+                                <li><a href="#services">преимущества</a></li>
                                 <li><a href="#how">цели</a></li>
                                 {isMobile && isMenuOpen && (
                                     <button onClick={()=>setIsModalOpen(true)}>свяжитесь с нами</button>

@@ -18,7 +18,7 @@ section.headerTitle .box p.top {
     color: black;
     margin-bottom: 0px;
     padding-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 section.headerTitle .box p.title {
@@ -105,7 +105,7 @@ section.headerTitle .headerTitle_item:first-child .box {
         height: 295px;
     }
     section.headerTitle .box p.top{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 800px){
@@ -116,6 +116,6 @@ section.headerTitle .headerTitle_item:first-child .box {
         padding-bottom: 0;
     }
     section.headerTitle .box p.top{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
