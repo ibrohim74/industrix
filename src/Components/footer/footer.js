@@ -40,7 +40,8 @@ const Footer = () => {
                     <div className="footer_box_bottom">
                         <div className="footer_box_bottom_item footer_box_bottom_item_logo">
                             <div className="footer_box_bottom_item_logo_text">
-                                <img src={logo} alt=""/>
+                                <img src={logo} alt=" эффективности и устойчивости
+                                    производств"/>
                                 <p>Мы реализуем проекты, которые способствуют повышению эффективности и устойчивости
                                     производств, предоставляя нашим клиентам передовые решения.</p>
                             </div>
@@ -55,7 +56,7 @@ const Footer = () => {
                         <div className="footer_box_bottom_item">
                             <h1>Страницы</h1>
                             <ul>
-                                <li><a href="#home">главный страница</a></li>
+                                <li><a href="/">главный</a></li>
                                 <li><a href="#about">о нас</a></li>
                                 <li><a href="#services">наша преимущества</a></li>
                                 <li><a href="#testimonial">ОТЗЫВЫ</a></li>
@@ -66,10 +67,10 @@ const Footer = () => {
                         <div className="footer_box_bottom_item footer_box_bottom_item_contact">
                             <h1>Контакт</h1>
                             <ul>
-                                <li><a href="#"><i className="fa-solid fa-phone"></i> <p>+998 99 123 45 67</p></a></li>
-                                <li><a href="#"><i className="fa-solid fa-envelope"></i> <p>test@gmail.com</p></a></li>
-                                <li><a href="#"><i class="fa-solid fa-location-dot"></i> <p>Jl. Dr. Ir Soekarno No. 99x
-                                    Tabanan - Bali</p></a></li>
+                                <li><a href="tel:+998931849893"><i className="fa-solid fa-phone"></i> <p> +99893 184 98 93</p></a></li>
+                                <li><a href="tel:+998931819893"><i className="fa-solid fa-phone"></i> <p> +99893 181 98 93</p></a></li>
+                                <li><a href="mailto:etbs@etbs.uz"><i className="fa-solid fa-envelope"></i> <p>etbs@etbs.uz</p></a></li>
+                                <li><a href="https://maps.app.goo.gl/KRaY5t66mJvGsgPVA"><i class="fa-solid fa-location-dot"></i> <p>Ташкент, 100042 Кукча Дарвоза 314, Офис 305</p></a></li>
                             </ul>
                         </div>
                     </div>

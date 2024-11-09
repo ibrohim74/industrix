@@ -5,10 +5,7 @@ import {Helmet} from "react-helmet-async";
 const Discover = () => {
     return (
         <div className="Discover">
-            <Helmet>
-                <meta name="description" content="Как выбрать правильное технологическое решение: инновации, выбор технологий, исследование доступных решений и поддержка внедрения." />
-                <meta name="keywords" content="выбор технологического решения, инновации в проектировании, исследование решений, поддержка внедрения, технологии для бизнеса" />
-            </Helmet>
+
             <div className="container">
                 <div className="Discover_title">
                     <h1>КАК ВЫБРАТЬ ПРАВИЛЬНОЕ <br/> ТЕХНОЛОГИЧЕСКОЕ РЕШЕНИЕ</h1>

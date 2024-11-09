@@ -6,10 +6,7 @@ import {Helmet} from "react-helmet-async";
 export default function How() {
     return (
         <section className='how' id='how'>
-            <Helmet>
-                <meta name="description" content="Проектирование и расчет технологических линий и систем для горнодобывающих отраслей, очистки отходящих газов и систем аспирации." />
-                <meta name="keywords" content="проектирование, технологические линии, горнодобывающие отрасли, расчет систем, очистка отходящих газов, системы аспирации" />
-            </Helmet>
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

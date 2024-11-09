@@ -6,16 +6,7 @@ import {Helmet} from "react-helmet-async";
 export default function About({setIsModalOpen}) {
     return (
         <section className='about' id='about'>
-            <Helmet>
-                <meta
-                    name='description'
-                    content='Мы проектируем технологические линии, системы очистки и вентиляции, адаптированные под нужды каждого клиента. Надежные и экологически безопасные решения для вашего производства.'
-                />
-                <meta
-                    name='keywords'
-                    content='технологические линии, системы очистки, вентиляция, аспирация, экологическая безопасность, надежность, инновации, производство'
-                />
-            </Helmet>
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6" style={{marginBottom: "30px"}}>

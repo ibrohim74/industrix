@@ -12,16 +12,7 @@ import {Helmet} from "react-helmet-async";
 export default function Our() {
     return (
         <section className='our' id={'services'}>
-            <Helmet>
-                <meta
-                    name='description'
-                    content='30 лет опыта, высококвалифицированные решения и превосходство, проверенное временем. Мы предлагаем гибкие и эффективные решения для вашего бизнеса.'
-                />
-                <meta
-                    name='keywords'
-                    content='опыт, решения, качество, производительность, гибкие линии, улучшение качества, эффективность, надежность'
-                />
-            </Helmet>
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
