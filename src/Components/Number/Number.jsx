@@ -99,15 +99,15 @@ export default function Number() {
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>{count2}+</p>
-                        <p className="last"> проектов в Узбекистане</p>
+                        <p className="last"> Проектов в Узбекистане</p>
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>{count3}+</p>
-                        <p className="last">проекта за рубежом</p>
+                        <p className="last">Проекта за рубежом</p>
                     </div>
                     <div className="col-lg-3">
                         <p className='count'>2-5 лет</p>
-                        <p className="last">срок окупаемости</p>
+                        <p className="last">Срок окупаемости</p>
                     </div>
                 </div>
             </div>
