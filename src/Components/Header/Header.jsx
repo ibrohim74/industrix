@@ -19,10 +19,18 @@ export default function Header({ setIsModalOpen }) {
         <header>
             <span className="header_opacity"></span>
             <div className="foto-res">
-                <img src={foto_res} alt="" className={isFirstImageVisible ? 'active' : ''} />
-                <img src={foto_res2} alt="" className={!isFirstImageVisible ? 'active' : ''} />
+                <img
+                    className={`background-image ${isFirstImageVisible ? 'fade-in' : 'fade-out'}`}
+                    src={foto_res}
+                    alt="First background"
+                />
+                <img
+                    className={`background-image ${!isFirstImageVisible ? 'fade-in' : 'fade-out'}`}
+                    src={foto_res2}
+                    alt="Second background"
+                />
             </div>
-            <Navbar setIsModalOpen={setIsModalOpen} />
+            <Navbar setIsModalOpen={setIsModalOpen}/>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8">
