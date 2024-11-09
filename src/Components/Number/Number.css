@@ -7,7 +7,7 @@ section.number .col-lg-3{
 }
 
 section.number p.count{
-    font-size: 55px;
+    font-size: 40px;
     font-family: var(--chakra);
     font-weight: 600;
     margin-bottom: 0px;

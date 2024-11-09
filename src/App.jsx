@@ -3,7 +3,6 @@ import HeaderTitle from './Components/HeaderTitle/HeaderTitle'
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
 import Our from "./Components/Our/Our";
-import Test from "./Components/Test/Test";
 import How from "./Components/How/How";
 import Number from "./Components/Number/Number"
 import Talk_about from "./Components/talk_about/talk_about";
@@ -59,7 +58,6 @@ export default function App() {
             <HeaderTitle setIsModalOpen={setIsModalOpen}/>
             <About setIsModalOpen={setIsModalOpen}/>
             <Our setIsModalOpen={setIsModalOpen}/>
-            <Test setIsModalOpen={setIsModalOpen}/>
             <How setIsModalOpen={setIsModalOpen}/>
             <Number setIsModalOpen={setIsModalOpen}/>
             <Talk_about setIsModalOpen={setIsModalOpen}/>

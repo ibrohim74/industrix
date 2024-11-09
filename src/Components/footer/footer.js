@@ -56,9 +56,9 @@ const Footer = () => {
                         <div className="footer_box_bottom_item">
                             <h1>Страницы</h1>
                             <ul>
-                                <li><a href="/">главный</a></li>
+                                <li><a href="/">главная страница</a></li>
                                 <li><a href="#about">о нас</a></li>
-                                <li><a href="#services">наша преимущества</a></li>
+                                <li><a href="#services">наши преимущества</a></li>
                                 <li><a href="#testimonial">ОТЗЫВЫ</a></li>
                                 <li><a href="#how">цели</a></li>
                             </ul>

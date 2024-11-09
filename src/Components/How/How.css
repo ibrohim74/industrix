@@ -14,7 +14,6 @@ section.how h1.top {
     font-size: 20px;
     font-family: var(--chakra);
     font-weight: 600;
-    padding-top: 50px;
     margin-bottom: 0px;
     padding-bottom: 10px;
     color: black;
@@ -75,4 +74,10 @@ section.how p.title::before{
 }
 section.how p.title:nth-child(8)::before{
     display: none;
+}
+
+@media screen and (max-width: 980px){
+    section.how h1.top{
+        padding-top: 50px;
+    }
 }

@@ -13,7 +13,7 @@ export default function Number() {
     const startCounting = useCallback(() => {
         const timer1 = setInterval(() => {
             setCount1((prevCount) => {
-                if (prevCount < 10) {
+                if (prevCount < 33) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer1);
@@ -24,7 +24,7 @@ export default function Number() {
 
         const timer2 = setInterval(() => {
             setCount2((prevCount) => {
-                if (prevCount < 15) {
+                if (prevCount < 37) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer2);
@@ -35,7 +35,7 @@ export default function Number() {
 
         const timer3 = setInterval(() => {
             setCount3((prevCount) => {
-                if (prevCount < 10) {
+                if (prevCount < 2) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer3);
@@ -95,19 +95,19 @@ export default function Number() {
                 <div className="row">
                     <div className="col-lg-3">
                         <p className='count'>{count1}+</p>
-                        <p className="last">Многолетний опыт</p>
+                        <p className="last"> Опыт</p>
                     </div>
                     <div className="col-lg-3">
-                        <p className='count'>{count2}K+</p>
-                        <p className="last">Положительный отзыв</p>
+                        <p className='count'>{count2}+</p>
+                        <p className="last"> проектов в Узбекистане</p>
                     </div>
                     <div className="col-lg-3">
-                        <p className='count'>{count3}K</p>
-                        <p className="last">проекты</p>
+                        <p className='count'>{count3}+</p>
+                        <p className="last">проекта за рубежом</p>
                     </div>
                     <div className="col-lg-3">
-                        <p className='count'>{count4}%</p>
-                        <p className="last">Возврат инвестиций</p>
+                        <p className='count'>2-5 лет</p>
+                        <p className="last">срок окупаемости</p>
                     </div>
                 </div>
             </div>
