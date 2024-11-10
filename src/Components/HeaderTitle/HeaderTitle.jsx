@@ -10,7 +10,7 @@ export default function HeaderTitle() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 headerTitle_item">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="top">
                                 ЭФФЕКТИВНОСТЬ ПРОИЗВОДСТВА
                             </p>
@@ -25,7 +25,7 @@ export default function HeaderTitle() {
                         </div>
                     </div>
                     <div className="col-lg-4 headerTitle_item">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="top">
                                 ЭКОЛОГИЧНОСТЬ ПРОИЗВОДСТВА
                             </p>
@@ -41,7 +41,7 @@ export default function HeaderTitle() {
                         </div>
                     </div>
                     <div className="col-lg-4 headerTitle_item">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="top">
                                 ВЫСОКОКВАЛИФИЦИРОВАННЫЕ СПЕЦИАЛИСТЫ
                             </p>

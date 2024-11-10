@@ -33,7 +33,7 @@ export default function Header({ setIsModalOpen }) {
             <Navbar setIsModalOpen={setIsModalOpen}/>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8" data-aos="fade-right">
                         <h1 className='top'>ЛИДЕР В <span>ПРОЕКТИРОВАНИИ</span> ТЕХНОЛОГИЧЕСКИХ ЛИНИЙ, ПЫЛЕ-ГАЗООЧИСТКИ,
                             СИСТЕМ ВЕНТИЛЯЦИИ, АСПИРАЦИИ И ЭНЕРГОЭФФЕКТИВНОСТИ</h1>
                         <p className="bottom">Мы — ведущая компания, специализирующаяся на разработке технологических

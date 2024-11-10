@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import HeaderTitle from './Components/HeaderTitle/HeaderTitle'
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
@@ -8,6 +8,9 @@ import Number from "./Components/Number/Number"
 import Talk_about from "./Components/talk_about/talk_about";
 import Discover from "./Components/Discover/Discover";
 import Footer from "./Components/footer/footer";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {Button, Input, message, Modal, notification} from "antd";
 import logo from "./Assisstens/img/logoBlack.png"
@@ -81,6 +84,9 @@ export default function App() {
             setDisabled(false);
         });
     }
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div>
             {contextHolder}

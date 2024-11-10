@@ -11,7 +11,7 @@ const Discover = () => {
                     <h1>КАК ВЫБРАТЬ ПРАВИЛЬНОЕ <br/> ТЕХНОЛОГИЧЕСКОЕ РЕШЕНИЕ</h1>
                 </div>
                 <div className="discover_box">
-                    <div className="discover_left">
+                    <div className="discover_left" data-aos="fade-right">
                         <div className="discover_left_item">
                             <img
                                 src={discover}
@@ -28,7 +28,7 @@ const Discover = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="discover_right">
+                    <div className="discover_right" data-aos="fade-right">
                         <div className="discover_right_item">
                             <h2>ВЫБОР ТЕХНОЛОГИЧЕСКОГО РЕШЕНИЯ</h2>
                             <p>

@@ -92,7 +92,7 @@ export default function Number() {
     return (
         <section className='number' ref={sectionRef}>
             <div className="container">
-                <div className="row">
+                <div className="row" data-aos="fade-right">
                     <div className="col-lg-3">
                         <p className='count'>{count1}+</p>
                         <p className="last"> Опыт</p>

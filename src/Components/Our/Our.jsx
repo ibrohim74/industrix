@@ -14,15 +14,15 @@ export default function Our() {
         <section className='our' id={'services'}>
 
             <div className="container">
-                <div className="row">
+                <div className="row" data-aos="fade-right">
                     <div className="col-lg-12">
                         <h1 className="top">ПРЕИМУЩЕСТВА</h1>
                         <p className="top">ПРЕИМУЩЕСТВА КОМПАНИИ,<br/> КОТОРЫЕ ГОВОРЯТ САМИ ЗА СЕБЯ</p>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="box">
+                <div className="row" >
+                    <div className="col-lg-6" >
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 БОЛЕЕ 30 ЛЕТ ПРАКТИКИ И ВЫСОКОКВАЛИФИЦИРОВАННЫХ РЕШЕНИЙ
                             </p>
@@ -44,7 +44,7 @@ export default function Our() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 НАШИ СПЕЦИАЛИСТЫ- ЭТО ОСНОВА КАЧЕСТВА И УСПЕХА
                             </p>
@@ -58,7 +58,7 @@ export default function Our() {
                                 {/*<a href="" className="bottom">LEARN MORE <i class="fa-solid fa-angle-right"></i></a>*/}
                             </div>
                         </div>
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 ПРЕВОСХОДСТВО, ПРОВЕРЕННОЕ ВРЕМЕНЕМ
                             </p>
@@ -76,7 +76,7 @@ export default function Our() {
                 </div>
                 <div className="row">
                     <div className="col-lg-4">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 УВЕЛИЧИТЬ ПРОИЗВОДИТЕЛЬНОСТЬ
                             </p>
@@ -93,7 +93,7 @@ export default function Our() {
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 СОЗДАТЬ ГИБКИЕ ЛИНИИ
                             </p>
@@ -110,7 +110,7 @@ export default function Our() {
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="box">
+                        <div className="box" data-aos="fade-right">
                             <p className="box-top">
                                 УЛУЧШИТЬ КАЧЕСТВО ПРОДУКЦИИ
                             </p>

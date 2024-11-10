@@ -76,7 +76,7 @@ nav button{
 }
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 65%;
     z-index: 999;
 }
