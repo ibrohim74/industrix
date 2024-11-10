@@ -10,7 +10,7 @@ export default function How() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={foto} alt="приоритеты и цели"/>
+                        <img src={foto} alt="приоритеты и цели" loading={"lazy"}/>
                     </div>
                     <div className="col-lg-6" >
                         <h1 className="top" data-aos="fade-right">

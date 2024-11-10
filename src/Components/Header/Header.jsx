@@ -23,11 +23,13 @@ export default function Header({ setIsModalOpen }) {
                     className={`background-image ${isFirstImageVisible ? 'fade-in' : 'fade-out'}`}
                     src={foto_res}
                     alt="First background"
+                    loading={"lazy"}
                 />
                 <img
                     className={`background-image ${!isFirstImageVisible ? 'fade-in' : 'fade-out'}`}
                     src={foto_res2}
                     alt="Second background"
+                    loading={"lazy"}
                 />
             </div>
             <Navbar setIsModalOpen={setIsModalOpen}/>

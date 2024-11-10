@@ -15,7 +15,9 @@ const Discover = () => {
                         <div className="discover_left_item">
                             <img
                                 src={discover}
-                                alt=""/>
+                                alt="ИННОВАЦИИ В ПРОЕКТИРОВАНИИ ТЕХНОЛОГИЙ"
+                                loading={"lazy"}
+                            />
                             <div className="discover_left_item_text">
                                 <h2>ИННОВАЦИИ В ПРОЕКТИРОВАНИИ ТЕХНОЛОГИЙ</h2>
                                 <p>
