@@ -32,7 +32,7 @@ export default function How() {
                             индустрии и производства минеральных удобрений.
                         </p>
                         <div className="box-one" data-aos="fade-right">
-                            <div className="one">
+                            <div className="one" style={{width:"30px"}}>
                                 <div className="two"></div>
                             </div>
                             <p className="box-p">
