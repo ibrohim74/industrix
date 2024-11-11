@@ -2,6 +2,7 @@ import React from 'react';
 import "./discover.css"
 import discover from "../../Assisstens/etbs/discover.webp";
 import {Helmet} from "react-helmet-async";
+
 const Discover = () => {
     return (
         <div className="Discover">
@@ -50,10 +51,8 @@ const Discover = () => {
                         </div>
                         <div className="discover_right_item">
                             <h2>ПОДДЕРЖКА И ОБУЧЕНИЕ</h2>
-                            <p>Даже самое лучшее решение требует времени на внедрение и адаптацию. Убедитесь, что у вас
-                                есть доступ к необходимым ресурсам и поддержке, чтобы максимально эффективно
-                                использовать выбранные технологии. Это обеспечит успешное внедрение и долгосрочные
-                                результаты.</p>
+                            <p>Наша организация оказывает постоянную техническую поддержку в реализации своего проекта и
+                                проводит обучение персонала заказчика на объектах.</p>
                         </div>
                     </div>
                 </div>

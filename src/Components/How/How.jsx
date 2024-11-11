@@ -12,7 +12,7 @@ export default function How() {
                     <div className="col-lg-6" data-aos="fade-right">
                         <img src={foto} alt="приоритеты и цели" loading={"lazy"}/>
                     </div>
-                    <div className="col-lg-6" >
+                    <div className="col-lg-6">
                         <h1 className="top" data-aos="fade-right">
                             приоритеты и цели
                         </h1>
@@ -28,15 +28,15 @@ export default function How() {
                             </p>
                         </div>
                         <p className="title" data-aos="fade-right">
-                            Проектирование технологических линий в горно-добывающей, металлургической отраслях строй
-                            индустрии, производства минеральных удобрений.
+                            Проектирование технологических линий в горно-добывающей, металлургической отраслях, строй
+                            индустрии и производства минеральных удобрений.
                         </p>
                         <div className="box-one" data-aos="fade-right">
                             <div className="one">
                                 <div className="two"></div>
                             </div>
                             <p className="box-p">
-                                расчет систем
+                                Расчет технологических систем утилизации
                             </p>
                         </div>
                         <p className="title" data-aos="fade-right">
@@ -53,9 +53,8 @@ export default function How() {
                             </p>
                         </div>
                         <p className="title" data-aos="fade-right">
-                            Проектирование систем аспирации вентиляции горнодобывающих, горноперерабатывающих
-                            комплексов,химической отрасли,машиностроительных и отраслей производства строительных
-                            материалов
+                            Проектирование систем аспирации, вентиляции, газо-очистки промышленных предприятий
+                            республики.
                         </p>
                     </div>
                 </div>
