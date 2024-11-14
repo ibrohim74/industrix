@@ -115,7 +115,7 @@ const Footer = () => {
                                 <li><a href="tel:+998931849893"><i className="fa-solid fa-phone"></i> <p> +99893 184 98 93</p></a></li>
                                 <li><a href="tel:+998931819893"><i className="fa-solid fa-phone"></i> <p> +99893 181 98 93</p></a></li>
                                 <li><a href="mailto:etbs@etbs.uz"><i className="fa-solid fa-envelope"></i> <p>etbs@etbs.uz</p></a></li>
-                                <li><a href="https://maps.app.goo.gl/KRaY5t66mJvGsgPVA"><i class="fa-solid fa-location-dot"></i> <p>Ташкент, 100042 Кукча Дарвоза 314, Офис 305</p></a></li>
+                                <li><a href="https://maps.app.goo.gl/KRaY5t66mJvGsgPVA"><i class="fa-solid fa-location-dot"></i> <p>Ташкент, 100042 Кукча Дарвоза 314, офис 305</p></a></li>
                             </ul>
                         </div>
                     </div>

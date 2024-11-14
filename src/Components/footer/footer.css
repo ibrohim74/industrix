@@ -128,7 +128,9 @@ footer .container {
     text-transform: lowercase;
     color: #b1b1b1;
 }
-
+.footer_box_bottom_item ul li:last-child a{
+    text-transform: none;
+}
 .footer_box_bottom_item_contact ul li a {
     display: flex;
     width: 100%;
